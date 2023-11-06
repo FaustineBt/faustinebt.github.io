@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "benchmark_piezo_1069.html#analyse-pour-les-prévisions-j1-à-j20",
+    "href": "benchmark_piezo_1069.html#analyse-pour-les-prévisions-j1-à-j20",
+    "title": "Benchmark des performances",
+    "section": "Analyse pour les prévisions J+1 à J+20",
+    "text": "Analyse pour les prévisions J+1 à J+20\n\nMAE (Mean absolute error)\n\nCette métrique mesure la moyenne des écarts absolus entre les valeurs prédites par le modèle et les valeurs réelles ⇒ métrique facile à interpréter : la MAE est exprimée dans les mêmes unités que la variable que l’on essaie de prédire.\n\n\n\n\n\n\n\n\n\n\nperiode\nmae\namplitude moyenne\n\n\n\n\n0\ndraining\n0.051633\n1.254706\n\n\n1\nglobal\n0.067102\n1.254706\n\n\n\n\n\n\n\n\n\nComparatif Observations VS Prédictions (modèle J+10 et J+20)\n\nComparaison des prédictions obtenues avec le modèle qui prédit à horizon +10 jours avec les réelles observations\n\n\n\n\n\n\n\nComparaison des prédictions obtenues avec le modèle qui prédit à horizon +20 jours avec les réelles observations"
+  },
+  {
+    "objectID": "benchmark_piezo_1069.html#analyse-pour-les-prévisions-j21-à-j90",
+    "href": "benchmark_piezo_1069.html#analyse-pour-les-prévisions-j21-à-j90",
+    "title": "Benchmark des performances",
+    "section": "Analyse pour les prévisions J+21 à J+90",
+    "text": "Analyse pour les prévisions J+21 à J+90\n\nCalcul MAE\n\nMAE globale sur la période J+21 à J+90 pour les différents modèles\n\n\n\n\n\n\n\n\n\n\nMAE\n\n\ntype_prediction\n\n\n\n\n\nbaseline\n0.374749\n\n\nprophet\n0.220157\n\n\nprophet_quantiles\n0.111922\n\n\n\n\n\n\n\n\nMAE par année sur la période J+21 à J+90 pour les différents modèles\n\n\n\n\n\n\n\n\n\n\ntype_prediction\nMAE\nyear\n\n\n\n\n0\nbaseline\n0.338366\n2019\n\n\n1\nprophet\n0.378090\n2019\n\n\n2\nprophet_quantiles\n0.217494\n2019\n\n\n3\nbaseline\n0.343705\n2020\n\n\n4\nprophet\n0.155065\n2020\n\n\n5\nprophet_quantiles\n0.071540\n2020\n\n\n6\nbaseline\n0.442177\n2021\n\n\n7\nprophet\n0.127317\n2021\n\n\n8\nprophet_quantiles\n0.046732\n2021\n\n\n\n\n\n\n\n\n\nPrévision de l’étiage\n\nCe graphique mesure de l’écart en jours (à gauche) et en valeur (à droite) entre l’étiage réel observé par année et l’étiage prédit."
+  }
+]
